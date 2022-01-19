@@ -69,9 +69,11 @@ body {
 }
 .hero-title{
   width: 484px;
+  margin-bottom: 24px;
 }
 .hero-text{
   width: 478px;
+  margin-bottom: 56px;
 }
 .searching{
   border: none;
@@ -80,6 +82,7 @@ body {
 }
 .suggestion{
   color: rgba(255, 255, 255, 0.734);
+  margin-bottom: 48px;
 }
 .suggestion-club{
   display: flex;
@@ -92,4 +95,8 @@ body {
   padding: 5px 10px;
   background-color: transparent;
   border: 1px solid rgb(179, 169, 169);
+}
+.hero-title-side{
+  display: flex;
+  flex-direction: column;
 }
