@@ -505,3 +505,248 @@ header{
   text-align: center;
   margin-bottom: 100px;
 }
+.chegirma-narx{
+  font-size: 28px;
+  font-weight: 700;
+  color: #F5453D;
+
+}
+.chegirma-main{
+  width: 372px;
+  height: 515px;
+  background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.31) 100%);;
+  border-radius: 20px;
+  outline: 2px solid rgba(255, 255, 255, 0.172);
+}
+.iconca{
+  display: flex;
+}
+.ramka-icon-item{
+  position: absolute;
+}
+.first-chegirma-about{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 29px;
+}
+.iconca-star{
+  position: relative;
+  width: 36px;
+  height: 34px;
+  left: 10px;
+  top: 10px;
+}
+.title-chegirma{
+  margin-left: 40px;
+}
+.chegirma-item{
+  padding: 40px 30px;
+}
+.yumaloq{
+  margin-right: 12px;
+}
+.text-yumaloq{
+  margin-bottom: 21px;
+}
+.yumaloqtext{
+  margin-top: 29px;
+}
+.buying-link{
+  width: 300px;
+  position: relative;
+  top: 150px;
+  left: 40px;
+  padding: 10px 30px;
+  border: 2px solid #F5443B;
+  background-color: transparent;
+  color: #F5453D;
+  text-align: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.buying-link:hover{
+  background-color: #F5453D;
+  color: #fff;
+
+}
+.third{
+  top: 110px;
+}
+.box-addvertise{
+  padding: 80px 100px ;
+  width: 1170px;
+  height: 434px;
+  background: linear-gradient(102.01deg, #23265C 1.96%, #352A56 101.68%);
+  border-radius: 20px;
+}
+.apstore-section{
+  margin-top: 175px;
+  margin-bottom: 100px;
+}
+.title-add{
+  font-size: 47px;
+  margin-bottom: 12px;
+}
+.text-add{
+  width: 406px;
+  font-size: 18px;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.467);
+  margin-bottom: 43px;
+}
+.downloads{
+  gap: 20px;
+}
+.group-rek{
+  position: relative;
+  left: 600px;
+  top: -290px;
+  /* left: 1000px; */
+}
+
+/* ---------------footer------------------------------------ */
+.footer {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.footer-page {
+  display: inline-block;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.footer-page__logo {
+  display: inline-block;
+  position: relative;
+  width: 230px;
+  height: 200px;
+}
+
+.footer-page__logo img {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.footer-page__logo p {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  opacity: 0.7;
+  font-family: var(--font);
+  font-style: normal;
+  line-height: 30px;
+  justify-content: center;
+}
+
+.footer-page__social-icons {
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+  flex-direction: row;
+}
+
+.footer-page__social-icons a i{
+  font-size: 32px;
+  color: white;
+  opacity: 0.7;
+  margin: 0 2rem 0 0rem;
+
+}
+
+.footer-page__menu,
+.footer-page__services,
+.footer-page__further-info,
+.footer-page__apps {
+  display: inline-block;
+  position: relative;
+  padding: 0 20px 20px 20px;
+}
+
+.footer-page__menu h3,
+.footer-page__services h3,
+.footer-page__further-info h3,
+.footer-page__apps h3 {
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  opacity: 0.8;
+  font-family: var(--font);
+  font-style: normal;
+  line-height: 30px;
+  justify-content: center;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+
+.footer-page__menu ul,
+.footer-page__services ul,
+.footer-page__further-info ul,
+.footer-page__apps ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer-page__menu ul li,
+.footer-page__services ul li,
+.footer-page__further-info ul li,
+.footer-page__apps ul li {
+  font-family: var(--font);
+  margin: 0.5rem 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0.6;
+}
+
+.footer-page__menu ul li a,
+.footer-page__services ul li a,
+.footer-page__further-info ul li a,
+.footer-page__apps ul li a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0.6;
+}
+
+.copiright {
+  margin-top: 2rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+
+}
+
+.copiright p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8F91D0;
+}
+
+.copiright p a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8F91D0;
+}
