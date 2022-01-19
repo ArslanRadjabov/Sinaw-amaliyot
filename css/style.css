@@ -11,5 +11,64 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  background-color: #171836;
+  color: #fff;
 }
+.container{
+  width: 100vw;
+  padding: 10px 120px;
+}
+.header-section{
+  padding: 10px 1px;
+  margin-bottom: 50px;
+}
+.logo-side{
+  margin-right: 148px;
+}
+.navbar-list{
+  text-decoration: none;
+  gap: 44px;
+  margin-right: 450px;
 
+}
+.navbar-list-item{
+  list-style: none;
+}
+.navbar-list-item a{
+  font-size: 14px;
+  color: #fff;
+}
+.login-link{
+  padding: 12px 32px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #F5443B;
+  border-radius: 5px;
+}
+.lang-eng{
+  margin-right: 30px;
+}
+.hero-img-anime{
+  width: 785px;
+  height: 752px;
+  border: 1px solid #fff;
+  margin-right: 11px;
+}
+.search-bar{
+  padding: 22px 32px;
+  background-color: #1F2143;
+  border-radius: 12px;
+  width: 500px;
+  height: 68px;
+  align-items: center;
+}
+.search-icon{
+  padding: 10px 10px;
+}
+.hero-title{
+  width: 484px;
+}
+.hero-text{
+  width: 478px;
+}
